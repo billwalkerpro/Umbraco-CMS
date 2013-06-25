@@ -126,7 +126,7 @@ namespace umbraco.cms.businesslogic.media
                 var currentString = String.Empty;
                 
                 if (Char.IsSeparator(currentChar) || Char.IsWhiteSpace(currentChar) || (Char.IsPunctuation(currentChar) 
-                    && (currentChar == '_' || currentChar == '-' || currentChar == '.' || currentChar == '%')))
+                    && (currentChar == '_' || currentChar == '.' || currentChar == '%')))
                 {
                     currentString = " ";
                 } 
